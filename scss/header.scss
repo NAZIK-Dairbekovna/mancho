@@ -1,0 +1,18 @@
+@import "./_global";
+@import "./_mixins";
+@import "./_veriables";
+
+.header {
+  background-color: $header-bg;
+  height: $header-height;
+  .content {
+    @include flex-center();
+    padding: 15px 0;
+    .logo {
+      img {
+        width: 80px;
+        height: 55px;
+      }
+    }
+  }
+}

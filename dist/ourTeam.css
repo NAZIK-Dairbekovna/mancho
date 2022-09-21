@@ -1,0 +1,36 @@
+#our-team .our-teams-title {
+  color: #0974f1;
+  font-size: 42px;
+  line-height: 1.23;
+  font-weight: 600;
+  text-align: center;
+}
+#our-team .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#our-team .content .card {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+}
+#our-team .content .card .foto {
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#our-team .content .card .esen-bayke-name {
+  color: #0974f1;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  font-weight: bold;
+}
+#our-team .content .card .span {
+  font-size: 12px;
+  font-weight: 300;
+}/*# sourceMappingURL=ourTeam.css.map */

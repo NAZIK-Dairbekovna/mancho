@@ -1,0 +1,29 @@
+#work .container .slog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#work .container .work-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#work .container .work-content .card {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+}
+#work .container .work-content .card .block-title {
+  color: #0974f1;
+  font-size: 18px;
+}
+#work .container .work-content .card p {
+  color: #000;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1rem;
+}/*# sourceMappingURL=work.css.map */

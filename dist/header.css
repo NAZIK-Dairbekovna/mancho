@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.global-title {
+  color: #0974f1;
+  font-size: 42px;
+  line-height: 1.23;
+  font-weight: 600;
+}
+
+p {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #000;
+}
+
+.btn {
+  border: 2px solid #000;
+  border-radius: 5px;
+  background: none;
+  margin: 0 auto;
+  padding: 12px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background-color: rgb(0, 0, 0);
+  height: 70px;
+}
+.header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.header .content .logo img {
+  width: 80px;
+  height: 55px;
+}/*# sourceMappingURL=header.css.map */
